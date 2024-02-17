@@ -1,0 +1,143 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
+    /* color : white; */
+}
+.card-game{
+    width : 100%;
+    height : 100vh;
+    background: linear-gradient(rgba(0,0,0,.4) , rgba(0,0,0,.4) , rgba(0,0,0,.4)) ,url("./img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+}
+.start-screen{
+    position: absolute;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    top : 50%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    z-index : 15;
+    width : 250px;
+    height : 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px rgb(174, 174, 174);
+    
+}
+@keyframes animate{
+    0%{
+        transform: scale(.8);
+    }
+    100%{
+        /* transform: rotate(180deg); */
+        transform: scale(1.05);
+    }
+}
+i{
+    animation-name: animate;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    color : white;
+    font-size: 62px;
+}
+.start-screen p{
+    /* border: 2px solid green; */
+    /* width : 10%; */
+    /* height : 100%; */
+    color : white;
+    text-transform: capitalize;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    
+}
+
+.heading{
+    position: absolute;
+    top : 15%;
+    left : 20px;
+    text-transform: capitalize;
+    /* color : white; */
+    /* color : rgba(128, 128, 128, 0.767); */
+    font-size: 68px;
+    font-weight: 600;
+    /* border: 2px solid red; */
+    text-align: center;
+    width : 25%;
+}
+.road{
+    position: relative;
+    width : 550px;
+    height : 100vh;
+    background-color: rgba(0, 0, 0, 0.87);
+    margin : auto;
+    overflow: hidden;
+    /* border-left: 6px dashed white; */
+    /* border-right: 6px dashed white; */
+}
+.car{
+    width : 90px;
+    height : 100px;
+    background-color: red;
+    position: absolute;
+    bottom : 75px;
+    left : 120px;
+    z-index : 10;
+    /* border : 2px solid red; */
+    background: url("./img2.png");
+    background-size: cover;
+    background-position: top;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    border-top : 4px solid white;
+    border-radius: 50%
+}
+
+.enemy{
+    width : 50px;
+    height : 90px;
+    background-color: red;
+    position: absolute;
+    bottom : 75px;
+    left : 120px;
+    z-index : 10;
+}
+
+.line{
+    width : 8px;
+    height : 110px;
+    background-color: white;
+    position: absolute;
+    left : 275px;
+    /* top : 5px; */
+}
+
+/* .start-screen{
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    border: 2px solid red;
+    z-index : 20;
+    transform : translate(-50% , -50%);
+} */
+.hide{
+    display: none;
+}
