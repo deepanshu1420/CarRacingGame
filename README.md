@@ -42,6 +42,7 @@ This project is a browser-based car racing game that blends interactive gameplay
 git clone <your-repo-link>
 
 # Navigate to the project folder
-cd car-racing-game
+cd CarRacingGame
 
-# Go Live or Open the HTML file in your browser
+# Go Live or Open the index.html file in your browser
+
