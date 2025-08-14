@@ -44,5 +44,5 @@ git clone <your-repo-link>
 # Navigate to the project folder
 cd CarRacingGame
 
-# Go Live or Open the index.html file in your browser
+# Go Live or Open the index.htm file in your browser
 
