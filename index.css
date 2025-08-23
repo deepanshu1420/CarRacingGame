@@ -141,3 +141,116 @@ i{
 .hide{
     display: none;
 }
+
+
+/* (+) Keep the center lane centered at any width */
+.road .line {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* (+) Responsive road only on small screens */
+@media (max-width: 768px) {
+  .road {
+    width: 92vw;         /* fills phone width neatly */
+    max-width: 550px;    /* preserve desktop max */
+  }
+  .heading {
+    font-size: 42px;
+    width: auto;
+  }
+}
+
+/* (+) Mobile Controls: transparent, tappable, above everything */
+.controls {
+  position: fixed;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;                 /* hidden by default (desktop) */
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  z-index: 1000;
+  pointer-events: none;          /* container doesn’t block touches */
+}
+
+.controls .middle-row {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-control {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.7);
+  background: rgba(0,0,0,0.25);  /* transparent look */
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;          /* buttons receive touches */
+  touch-action: none;            /* prevents scroll while holding */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.25);
+}
+
+.btn-control:active {
+  transform: scale(0.96);
+  background: rgba(255,255,255,0.18);
+}
+
+/* (+) Show controls only on mobile/tablet */
+@media (max-width: 768px) {
+  .controls { display: flex; }
+}
+
+/* (+) Smaller on very small phones */
+@media (max-width: 480px) {
+  .btn-control { width: 48px; height: 48px; font-size: 20px; }
+  .controls .middle-row { gap: 12px; }
+}
+
+
+/* (+) Speed Controls Panel */
+.speed-controls {
+  position: fixed;
+  top: calc(16px + env(safe-area-inset-top, 0px));
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 1000;
+  pointer-events: none;   /* container doesn’t block */
+}
+
+.speed-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.7);
+  background: rgba(0,0,0,0.25);  /* transparent look */
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;   /* buttons clickable */
+  backdrop-filter: blur(2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.25);
+  user-select: none;
+}
+
+.speed-btn:active {
+  transform: scale(0.92);
+  background: rgba(255,255,255,0.18);
+}
+

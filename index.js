@@ -139,3 +139,51 @@ document.addEventListener("keydown" , (e)=>{
     keysTrace[e.key] = true;
 })
 
+
+
+// (+) Mobile touch controls
+document.querySelectorAll(".btn-control").forEach(btn => {
+  const dir = btn.dataset.dir;
+
+  // On press (touchstart or mousedown)
+  btn.addEventListener("touchstart", e => {
+    e.preventDefault();
+    keysTrace[dir] = true;
+  });
+  btn.addEventListener("mousedown", e => {
+    e.preventDefault();
+    keysTrace[dir] = true;
+  });
+
+  // On release (touchend or mouseup)
+  btn.addEventListener("touchend", e => {
+    e.preventDefault();
+    keysTrace[dir] = false;
+  });
+  btn.addEventListener("mouseup", e => {
+    e.preventDefault();
+    keysTrace[dir] = false;
+  });
+
+  // In case finger slides away
+  btn.addEventListener("mouseleave", () => {
+    keysTrace[dir] = false;
+  });
+});
+
+// (+) Speed Control Logic
+const baseSpeed = 5;  // normal starting speed
+player.speed = baseSpeed;
+
+document.getElementById("speed-up").addEventListener("click", () => {
+  player.speed += 1;
+});
+
+document.getElementById("speed-down").addEventListener("click", () => {
+  if (player.speed > 1) player.speed -= 1;
+});
+
+document.getElementById("speed-reset").addEventListener("click", () => {
+  player.speed = baseSpeed;
+});
+
