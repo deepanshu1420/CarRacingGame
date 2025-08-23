@@ -24,8 +24,8 @@ This project is a browser-based car racing game that blends interactive gameplay
 - **Asynchronous gameplay:** JavaScript async functionality drives continuous action and boosts retention by 25%.  
 - **Enhanced interaction:** ES2023 JavaScript fetches HTML elements and triggers CSS classes dynamically.  
 - **Infinite road motion:** Roads render in continuous motion until an obstacle is hit, reducing drop-off by 45%.
-- **Responsive speed controls:** Mobile-friendly speed buttons adapt to any screen size for smooth gameplay on phones and tablets.
-
+- **Responsive speed controls:** Mobile-friendly speed buttons for smooth gameplay on any device.
+  
 ---
 
 ## ✅ Advantages
