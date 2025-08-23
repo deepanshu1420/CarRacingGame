@@ -172,7 +172,13 @@ document.querySelectorAll(".btn-control").forEach(btn => {
 });
 
 // (+) Speed Control Logic
-const baseSpeed = 5;  // normal starting speed
+// Set default speed based on device
+let baseSpeed;
+if (window.innerWidth <= 768) {   // Mobile/tablet
+    baseSpeed = 3;   // slower default for mobile
+} else {
+    baseSpeed = 5;   // normal default for desktop
+}
 player.speed = baseSpeed;
 
 document.getElementById("speed-up").addEventListener("click", () => {
