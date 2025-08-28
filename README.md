@@ -24,7 +24,7 @@ This project is a browser-based car racing game that blends interactive gameplay
 - **Impactful UI:** Designed with CSS for a visually engaging experience.  
 - **Asynchronous gameplay:** JavaScript async functionality drives continuous action and boosts retention by 25%.  
 - **Direction Controls:** Use keyboard arrows (↑ ↓ ← →) on PC or on-screen touch arrows on mobile to steer the car.
-- **Responsive Speed Controls:** Click + to accelerate, - to brake, and Reset to return to idle speed on both desktop and mobile.
+- **Responsive Speed Controls:** Click +/- to adjust speed and Reset to idle on desktop and mobile.
 - **Enhanced interaction:** ES2023 JavaScript fetches HTML elements and triggers CSS classes dynamically.  
 - **Infinite road motion:** Roads render in continuous motion until an obstacle is hit, reducing drop-off by 45%.
   
