@@ -38,11 +38,11 @@ This project is a browser-based car racing game that blends interactive gameplay
 
 ---
 
-## 🖼 Screenshots
+## 📸 Screenshots
 
 ### Home
 ![Home](./screenshots/home.png)  
-*Start your engines! Choose your car and track before the race begins.*
+*Start your engine! Choose your car and track before the race begins.*
 
 ### Playing
 ![Playing](./screenshots/playing.png)  
