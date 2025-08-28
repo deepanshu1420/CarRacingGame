@@ -38,6 +38,26 @@ This project is a browser-based car racing game that blends interactive gameplay
 
 ---
 
+## 🖼 Screenshots
+
+### Home
+![Home](./screenshots/home.png)  
+*Start your engines! Choose your car and track before the race begins.*
+
+### Playing
+![Playing](./screenshots/playing.png)  
+*Navigate through traffic, dodge obstacles, and control your speed using `+`, `-`, and `Reset` (to idle speed).*
+
+### Game Over
+![Game Over](./screenshots/gameover.png)  
+*Check your final score and best speed, then try again to beat your record!*
+
+### Mobile View
+![Mobile View](./screenshots/MobileScreen.png)  
+*Optimized mobile layout for on-the-go racing and smooth touch controls.*
+
+---
+
 ## 🛠 Installation
 
 ```bash
