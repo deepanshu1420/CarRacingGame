@@ -1,7 +1,7 @@
 # 🏎️ Car Racing Game
 
 [![Asynchronous JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Material UI](https://img.shields.io/badge/Material%20UI-Engaging%20Design-purple)](https://mui.com/)
+[![Material UI](https://img.shields.io/badge/Material%20UI-Modern%20Interface-purple)](https://mui.com/)
 [![CSS](https://img.shields.io/badge/CSS-UI%20Design-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![HTML](https://img.shields.io/badge/HTML5-Game%20Development-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
