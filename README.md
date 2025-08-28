@@ -1,6 +1,7 @@
 # 🏎️ Car Racing Game
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Asynchronous JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Material UI](https://img.shields.io/badge/Material%20UI-Engaging%20UI-purple)](https://mui.com/)
 [![CSS](https://img.shields.io/badge/CSS-UI%20Design-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![HTML](https://img.shields.io/badge/HTML5-Game%20Development-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -22,6 +23,8 @@ This project is a browser-based car racing game that blends interactive gameplay
 ## ⚡ Features
 - **Impactful UI:** Designed with CSS for a visually engaging experience.  
 - **Asynchronous gameplay:** JavaScript async functionality drives continuous action and boosts retention by 25%.  
+- **Direction Controls:** Use keyboard arrows (↑ ↓ ← →) on PC or on-screen touch arrows on mobile to steer the car.
+- **Speed Controls:** Speed Controls: Click + to accelerate, - to brake, and Reset to return to idle speed.
 - **Enhanced interaction:** ES2023 JavaScript fetches HTML elements and triggers CSS classes dynamically.  
 - **Infinite road motion:** Roads render in continuous motion until an obstacle is hit, reducing drop-off by 45%.
 - **Responsive speed controls:** Mobile-friendly speed buttons for smooth gameplay on any device.
