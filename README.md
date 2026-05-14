@@ -1,4 +1,4 @@
-# 🏎️ Car Racing Game
+# Car Racing Game 🏎️
 
 [![Asynchronous JavaScript](https://img.shields.io/badge/Asynchronous%20JavaScript-ES6%2B-yellow)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
 [![Material UI](https://img.shields.io/badge/Material%20UI-Modern%20Interface-purple)](https://mui.com/)
@@ -12,7 +12,7 @@
 This project is a browser-based car racing game that blends interactive gameplay with a visually appealing UI. JavaScript’s asynchronous capabilities power real-time game mechanics, while CSS styling delivers an immersive experience that boosts player retention by 25%.  
 
 ## 🚀 Play Online
-[**▶ Play the Game**](<https://deepanshu1420.github.io/CarRacingGame/>) — Try the game instantly in your browser or on mobile!
+[**▶ Play the Game**](<https://deepanshu1420.github.io/CarRacingGame/>) - Try the game instantly in your browser or on mobile!
 
 ## ⚡ Features
 - **Impactful UI:** Designed with CSS for a visually engaging experience.  
@@ -48,10 +48,10 @@ This project is a browser-based car racing game that blends interactive gameplay
 
 ## 🛠 Tech Stack
 
-- Frontend: HTML5, CSS3, JavaScript (ES6+/ES2023)  
-- UI Design: Material UI  
-- Concepts Used: Asynchronous JavaScript  
-- Deployment & Version Control: Git, GitHub, GitHub Pages  
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+/ES2023)  
+- **UI Design:** Material UI  
+- **Concepts Used:** Asynchronous JavaScript  
+- **Deployment & Version Control:** Git, GitHub, GitHub Pages  
 
 ## 🛠 Setup & Installation
 
