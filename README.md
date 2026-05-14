@@ -36,7 +36,7 @@ This project is a browser-based car racing game that blends interactive gameplay
 
 ### 🎮 Playing
 ![Playing](./screenshots/playing.png)  
-*Navigate through traffic, dodge obstacles, and control your speed using `+`, `-` and `Reset` (to idle speed).*
+*Navigate through traffic, dodge obstacles, and control your speed using `+`, `-` and `⟳ Reset` (to idle speed).*
 
 ### 💥 Game Over
 ![Game Over](./screenshots/gameover.png)  
