@@ -62,6 +62,6 @@ git clone https://github.com/deepanshu1420/CarRacingGame.git
 # Navigate to the project folder
 cd CarRacingGame
 
-# Go Live or Open the index.htm file in your browser
+# Open the index.htm file in your browser
 ```
 
