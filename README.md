@@ -43,7 +43,7 @@ This project is a browser-based car racing game that blends interactive gameplay
 *Check your final score and best speed, then try again to beat your record!*
 
 ### 📱 Mobile View
-![Mobile View](./screenshots/mobilescreen.png)  
+![Mobile View](./screenshots/MobileScreen.png)  
 *Optimized mobile layout for on-the-go racing and smooth touch controls.*
 
 ## 🛠 Tech Stack
