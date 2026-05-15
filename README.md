@@ -49,12 +49,12 @@ This project is a browser-based car racing game that blends interactive gameplay
 
 ## 🛠 Tech Stack Used
 
-- **⚙️ Frontend:** HTML5, CSS3, JavaScript (ES6+/ES2023)  
+- **☄️ Frontend:** HTML5, CSS3, JavaScript (ES6+/ES2023)  
 - **🎭 UI Design:** Material UI  
 - **🔄 Concepts Used:** Asynchronous JavaScript  
 - **📦 Deployment & Version Control:** Git, GitHub, GitHub Pages  
 
-## 🛠 Setup & Installation
+## ⚙️ Setup & Installation
 
 ```bash
 # Clone the repository
