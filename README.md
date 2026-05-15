@@ -15,18 +15,19 @@ This project is a browser-based car racing game that blends interactive gameplay
 [**▶ Play the Game**](<https://deepanshu1420.github.io/CarRacingGame/>) - Try the game instantly in your browser or on mobile!
 
 ## ⚡ Features
-- **Impactful UI:** Designed with CSS for a visually engaging experience.  
-- **Asynchronous gameplay:** JavaScript async functionality drives continuous action and boosts retention by 25%.  
-- **Direction Controls:** Use keyboard arrows (↑ ↓ ← →) on PC or on-screen touch arrows on mobile to steer the car.
-- **Responsive Speed Controls:** Click +/- to adjust speed and (⟳) Reset to idle on desktop and mobile.
-- **Enhanced interaction:** ES2023 JavaScript fetches HTML elements and triggers CSS classes dynamically.  
-- **Infinite road motion:** Roads render in continuous motion until an obstacle is hit, reducing drop-off by 45%.
+
+- **🎨 Impactful UI:** Designed with CSS for a visually engaging experience.  
+- **⚡ Asynchronous gameplay:** JavaScript async functionality drives continuous action and boosts retention by 25%.  
+- **🎮 Direction Controls:** Use keyboard arrows (↑ ↓ ← →) on PC or on-screen touch arrows on mobile to steer the car.
+- **🚀 Responsive Speed Controls:** Click +/- to adjust speed and (⟳) Reset to idle on desktop and mobile.
+- **🧩 Enhanced interaction:** ES2023 JavaScript fetches HTML elements and triggers CSS classes dynamically.  
+- **🛣️ Infinite road motion:** Roads render in continuous motion until an obstacle is hit, reducing drop-off by 45%.
 
 ## ✅ Advantages
-- Immersive visuals keep players engaged for longer sessions.  
-- Real-time responsiveness using modern JavaScript features.  
-- Smooth and dynamic gameplay with minimal lag.  
-- Intuitive design for all age groups.  
+- ✨ Immersive visuals keep players engaged for longer sessions.  
+- ⚡ Real-time responsiveness using modern JavaScript features.  
+- 🚀 Smooth and dynamic gameplay with minimal lag.  
+- 🕹️ Intuitive design for all age groups.  
 
 ## 📸 Screenshots
 
@@ -46,12 +47,12 @@ This project is a browser-based car racing game that blends interactive gameplay
 ![Mobile View](./screenshots/MobileScreen.png)  
 *Optimized mobile layout for on-the-go racing and smooth touch controls.*
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack Used
 
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+/ES2023)  
-- **UI Design:** Material UI  
-- **Concepts Used:** Asynchronous JavaScript  
-- **Deployment & Version Control:** Git, GitHub, GitHub Pages  
+- **⚙️ Frontend:** HTML5, CSS3, JavaScript (ES6+/ES2023)  
+- **🎭 UI Design:** Material UI  
+- **🔄 Concepts Used:** Asynchronous JavaScript  
+- **📦 Deployment & Version Control:** Git, GitHub, GitHub Pages  
 
 ## 🛠 Setup & Installation
 
