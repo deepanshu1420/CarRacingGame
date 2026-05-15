@@ -14,7 +14,7 @@ This project is a browser-based car racing game that blends interactive gameplay
 ## 🚀 Play Online
 [**▶ Play the Game**](<https://deepanshu1420.github.io/CarRacingGame/>) - Try the game instantly in your browser or on mobile!
 
-## 🔥 Features
+## 🔥 Features / Highlights
 
 - **🎨 Impactful UI:** Designed with CSS for a visually engaging experience.  
 - **⚡ Asynchronous gameplay:** JavaScript async functionality drives continuous action and boosts retention by 25%.  
@@ -29,7 +29,7 @@ This project is a browser-based car racing game that blends interactive gameplay
 - 🚀 Smooth and dynamic gameplay with minimal lag.  
 - 🕹️ Intuitive design for all age groups.  
 
-## 📸 Screenshots
+## 📸 Screenshots / Demo
 
 ### 🏠 Home
 ![Home](./screenshots/home.png)  
